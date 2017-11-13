@@ -1,0 +1,33 @@
+The 'Blinky' project is a simple CMSIS RTOS Kernel based example for
+NXP 'MKW41Z512xxx4' microcontroller using 'FRDM-KW41Z' Evaluation Board.
+Compliant to Cortex Microcontroller Software Interface Standard (CMSIS).
+
+Example functionality:
+ - Clock Settings:
+   - Core Clock  =   20.97 MHz
+
+ - 4 LEDs blink with fixed speed.
+ - blinking is paused while holding down SW3/SW4 button.
+
+
+The Blinky example is available in different targets:
+
+  MKW41Z512xxx4 RAM:   configured for on-chip RAM
+                       Debug/Target Driver is configured as ULINK2
+                       (used for target debugging)
+
+  MKW41Z512xxx4 Flash: configured for on-chip Flash
+                       Debug/Target Driver is configured as ULINK2
+                       (used for production or target debugging)
+
+  MKW41Z512xxx4 MTB:   configured for on-chip Flash
+                       Debug/Target Driver is configured as ULINK2
+                       shows use of MTB (Micro Trace Buffer)
+
+
+MTB (Micro Trace Buffer) Notes
+-------------------------------
+  - Dbg_MTB.ini file configures MTB settings, which allows to configure MTB RAM buffer size, buffer position, and flow control.
+  - MTB allocates user-defined region of the system RAM for storing instruction address change-of-flow data packets.
+    Modify MTB position and size to define the used memory region. The position must be a multiple of the buffer size.
+    The allocated buffer region cannot be used as application RAM.

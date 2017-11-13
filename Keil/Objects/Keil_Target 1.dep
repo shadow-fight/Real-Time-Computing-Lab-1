@@ -1,0 +1,17 @@
+Dependencies for Project 'Keil', Target 'Target 1': (DO NOT MODIFY !)
+F (.\blinky_lab1.c)(0x59FE145E)(--c99 -c --cpu Cortex-M0+ -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections-I"F:\Southampton\Real-time computing\Keil_v5\ARM\RV31\Inc"-I.\RTE\Device\MKW41Z512xxx4-I.\RTE\RTOS-I.\RTE\_Target_1-I"F:\Southampton\Real-time computing\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\CMSIS\RTOS2\FreeRTOS\Include"-I"F:\Southampton\Real-time computing\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\include"-I"F:\Southampton\Real-time computing\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.1.0\Source\portable\RVDS\ARM_CM0"-I"F:\Southampton\Real-time computing\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include"-I"F:\Southampton\Real-time computing\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Device\Include"-I"F:\Southampton\Real-time computing\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.4.1\Board"-D__UVISION_VERSION="524" -D_RTE_ -DMKW41Z512xxx4-o .\objects\blinky_lab1.o --omf_browse .\objects\blinky_lab1.crf --depend .\objects\blinky_lab1.d)
+F (C:\Apps\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Boards\NXP\FRDM-KW41Z\Common\Buttons_FRDM-KW41Z.c)(0x57D6B86C)()
+F (C:\Apps\Keil_v5\ARM\PACK\Keil\Kinetis_KWxx_DFP\1.7.0\Boards\NXP\FRDM-KW41Z\Common\LED_FRDM-KW41Z.c)(0x57D6B86C)()
+F (RTE\Device\MKW41Z512xxx4\startup_MKW41Z4.s)(0x57D6C67C)()
+F (RTE\Device\MKW41Z512xxx4\system_MKW41Z4.c)(0x57D6C67C)()
+F (RTE\Device\MKW41Z512xxx4\system_MKW41Z4.h)(0x57D6C67C)()
+F (C:\Apps\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.0.0\CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c)(0x58BD2694)()
+F (C:\Apps\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.0.0\Source\croutine.c)(0x589C5BAE)()
+F (C:\Apps\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.0.0\Source\event_groups.c)(0x589C5BAE)()
+F (C:\Apps\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.0.0\Source\list.c)(0x589C5BAE)()
+F (C:\Apps\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.0.0\Source\portable\MemMang\heap_4.c)(0x589C5BAE)()
+F (C:\Apps\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.0.0\Source\portable\RVDS\ARM_CM0\port.c)(0x589C5BAE)()
+F (C:\Apps\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.0.0\Source\queue.c)(0x589C5BAE)()
+F (C:\Apps\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.0.0\Source\tasks.c)(0x589C5BAE)()
+F (C:\Apps\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\9.0.0\Source\timers.c)(0x589C5BAE)()
+F (RTE\RTOS\FreeRTOSConfig.h)(0x58C29536)()
